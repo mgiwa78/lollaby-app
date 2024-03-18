@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@components/*": ["./app/components/*"],
+      "@redux/*": ["./redux/*"],
+      "@constants/*": ["./constants/*"],
+      "@hooks/*": ["./common/hooks/*"],
+      "@common/*": ["./common/*"],
+      "@services/*": ["./services/*"],
+      "@types/*": ["./types/*"],
+      "@common-components/*": ["./common/components/*"],
+      "@toolkit/*": ["./toolkit/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base",
+  "include": ["**/*.ts", "**/*.tsx", "service.js"]
+}

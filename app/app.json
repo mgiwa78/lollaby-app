@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    }
+  }
+}
